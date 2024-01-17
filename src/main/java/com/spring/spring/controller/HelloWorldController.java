@@ -10,6 +10,8 @@ public class HelloWorldController {
 
 	@GetMapping("hello-world")
 	public String home() {
-		return "home";
+		
+		return "home"; 
+		
 	}
 }
